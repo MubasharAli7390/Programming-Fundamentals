@@ -11,40 +11,40 @@ int main() {
     cout<<"4. Exit\n";
     cout<<"************************\n";
     cin>>n;
-    switch(n) {
-        case 1:
-        float r,circle;
-        cout<<"Enter Radius: ";
-        cin>>r;
-        circle = 3.14*r*r;
-        cout<<"Radius of the circle: "<<circle;
-        break;
-        case 2:
-        float base, height, triangle;
-        cout<<"Enter base: ";
-        cin>>base;
-        cout<<"Enter height: ";
-        cin>>height;
-        triangle = 0.5*(base*height);
-        cout<<"Area of the triangle: "<<triangle;
-        break;
-        case 3:
-        float length,breath,rectangle;
-        cout<<"Enter length: ";
-        cin>>length;
-        cout<<"Enter breath: ";
-        cin>>breath;
-        rectangle = length*breath;
-        cout<<"Area of the rectangle: "<<rectangle;
-        break;
-        case 4: 
-        cout<<"Goodbye!";
-        break;
-        default:
-        cout<<"Wrong Input";
-        
-
-    }
-
+    switch (n) {
+    case 1:
+      int r, a;
+      cout << "Enter Radius: ";
+      cin >> r;
+      a = 3.14 * r * r;
+      cout << "Area: " << a << endl;
+      break;
+    case 2:
+      int b, h, t;
+      cout << "Enter base: ";
+      cin >> b;
+      cout << "Enter height: ";
+      cin >> h;
+      t = 0.5 * (b * h);
+      cout << "Area: " << t << endl;
+      break;
+    case 3:
+      int l, w, ar;
+      cout << "Enter length: ";
+      cin >> l;
+      cout << "Enter width: ";
+      cin >> w;
+      ar = l * w;
+      cout << "Area: " << ar << endl;
+      break;
+    case 4:
+      cout << "Goodbye!" << endl;
+      break;
+    default:
+      cout << "Invalid Input" << endl;
+  }
+  return 0;
 }
+
+
 
