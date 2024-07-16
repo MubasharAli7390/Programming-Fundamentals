@@ -1,5 +1,3 @@
-<p>Lab was about making algorithms</p>
-
 <h1>Q1.</h1> Write an algorithm where the science, math and English marks of a student are input. Calculate the average percentage. If the percentage is above 40 then display passed else display failed.
 
 Step 1: Start<br>
